@@ -1,0 +1,6 @@
+/* line 1, ../sass/app.sass */
+#redbox {
+  height: 200px;
+  width: 200px;
+  background: red;
+}
