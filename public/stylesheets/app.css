@@ -1,6 +1,27 @@
 /* line 1, ../sass/app.sass */
-#redbox {
-  height: 200px;
-  width: 200px;
+#wrap {
+  max-width: 100%;
+  background: #565656;
+  min-width: 30%;
+}
+
+/* line 6, ../sass/app.sass */
+#sidebar {
+  max-width: 100%;
   background: red;
+  visibility: collapse;
+  float: left;
+  width: 0;
+}
+
+/* line 13, ../sass/app.sass */
+#databox {
+  max-width: 100%;
+  background: green;
+  float: right;
+}
+
+/* line 18, ../sass/app.sass */
+#clearfix {
+  clear: both;
 }
